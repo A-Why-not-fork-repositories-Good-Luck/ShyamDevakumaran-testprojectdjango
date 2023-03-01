@@ -1,0 +1,21 @@
+<!-- 
+{% extends 'base.html'%}
+{%block content  %}
+<center>
+ <h1>hello {{name}}</h1>
+
+<form action="add" method="POST"  style="margin: 120px;">
+    {% csrf_token %}
+    <label style="text-align: center;align-items:center; color:#000;font-size:20px;font-weight:600;"> Enter 1ST Number </label>
+   <br /> <br />
+    <input type="text" name="num1" style="padding: 15px 15px; color:#fff;background-color:#eee;border:none;border-radius:10px;outline:none;"  />
+    <br /><br />
+    <label style="text-align: center;align-items:center; color:#000;font-size:20px;font-weight:600;"> Enter 2ST Number </label>
+    <br /> <br />
+    <input type="text" name="num2" style="padding: 15px 15px; color:#fff;background-color:#eee;border:none;border-radius:10px;outline:none;" />
+    <br /><br />
+    <input type="submit"  style="padding: 15px 15px; color:#fff;background-color:green;border:none;border-radius:10px;outline:none;"/>
+ 
+</form>
+</center>
+{%endblock%} -->
